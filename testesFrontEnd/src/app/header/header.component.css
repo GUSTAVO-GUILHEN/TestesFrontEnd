@@ -1,0 +1,53 @@
+header{
+    height: 80px;
+    background-color: transparent;
+    border: none;
+    color: black !important;
+    transition: background-color 1s ease 0s;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    z-index: 100;
+}
+ul li{
+    list-style-type: none;
+    color: rgb(0, 0, 0);
+    display: inline-block;
+    margin-left: 15px;
+    padding: 0 5px;
+    cursor: pointer;
+}
+.active{
+    background: rgb(255, 255, 255);
+    color: rgb(255, 251, 0);
+}
+.logo{
+    position: absolute;
+    top: -20px;
+}
+.logo img{
+    border: 1px solid #d82424;
+}
+.header_change{
+    position: fixed;
+    background:rgb(47, 0, 255);
+    width: 100%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+}
+
+.grande{
+    background-color: rgb(116, 110, 115);
+    height: 2000px;
+}
+.tamanho {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    position: fixed;
+
+}
+
